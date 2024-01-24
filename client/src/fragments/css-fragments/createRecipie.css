@@ -1,0 +1,111 @@
+
+.create-recipie-container {
+  position: relative;
+  width: 730px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.create-recipie-container form {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.5s;
+  flex-direction: column;
+}
+form h1 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.create-recipie-container form input {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.create-recipie-container form button[type="submit"] {
+  max-width: 100px;
+  margin: 8px 0;
+  background: #677eff;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  border: 0;
+  outline: 0;
+}
+
+section .container .user .formBx form .signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.create-recipie-container li {
+  list-style-position: outside;
+  width: 90%;
+  margin: auto;
+  margin-left: 8%;
+}
+section legend {
+  font-weight: 600;
+  text-decoration: none;
+  color: #677eff;
+  border: 0;
+  outline: 0;
+  background-color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.create-recipie-container fieldset {
+  width: 100%;
+  padding: 0;
+  border: 1px solid rgb(239, 243, 133);
+}
+.create-recipie-container fieldset button {
+  border: 0;
+  padding: 0.3rem 0.6rem;
+  margin: 0.5rem;
+  float: right;
+}
+
+@media (max-width: 991px) {
+  section .create-recipie-container {
+    max-width: 400px;
+  }
+
+  section .create-recipie-container form {
+    width: 100%;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,56 @@
+.recipie-details {
+}
+.recipie-details .h1 {
+  display: flex;
+  align-items: center;
+}
+.recipie-details .h1 button {
+  border: 0;
+  outline: 0;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  width: 2rem;
+  cursor: pointer;
+  background: white;
+  color: blue;
+}
+.recipie-details .h1 h1 {
+  width: 100%;
+}
+.recipie-details h2 {
+    background-color: rgb(255, 251, 232);
+    color: rgb(255, 153, 0);
+    margin: 1rem auto;
+    text-align: center;
+}
+.recipie-details > h3 {
+  margin-top: 1rem;
+  text-align: center;
+  color: red;
+  font-weight: 500;
+}
+.recipie-details h6 {
+  margin-left: 1rem;
+  color: grey;
+}
+.recipie-details img {
+  width: 100%;
+  max-width: 700px;
+  margin: 1rem auto;
+  aspect-ratio: 16/9;
+}
+@media (width >= 700px) {
+  .recipie-details img {
+    width: 50%;
+    margin: 1rem 25%;
+  }
+}
+.recipie-details p {
+  padding: 1rem;
+}
+.recipie-details li {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.recipie-details ol li {
+}
